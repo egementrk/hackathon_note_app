@@ -17,7 +17,6 @@
 		8813A9B12724195900E4EBC3 /* NoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9B02724195900E4EBC3 /* NoteAppUITests.swift */; };
 		8813A9B32724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9B22724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift */; };
 		8813A9C227241AED00E4EBC3 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9C127241AED00E4EBC3 /* NoteVC.swift */; };
-		8813A9C62724239700E4EBC3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9C52724239700E4EBC3 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		8813A9B02724195900E4EBC3 /* NoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAppUITests.swift; sourceTree = "<group>"; };
 		8813A9B22724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8813A9C127241AED00E4EBC3 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
-		8813A9C52724239700E4EBC3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				8813A9C127241AED00E4EBC3 /* NoteVC.swift */,
-				8813A9C52724239700E4EBC3 /* Button.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8813A98D2724195800E4EBC3 /* AppDelegate.swift in Sources */,
-				8813A9C62724239700E4EBC3 /* Button.swift in Sources */,
 				8813A9C227241AED00E4EBC3 /* NoteVC.swift in Sources */,
 				8813A98F2724195800E4EBC3 /* SceneDelegate.swift in Sources */,
 				8813A9972724195800E4EBC3 /* NoteApp.xcdatamodeld in Sources */,
