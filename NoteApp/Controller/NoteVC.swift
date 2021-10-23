@@ -8,17 +8,29 @@
 import UIKit
 
 class NoteVC: UITableViewController {
-
+    @IBOutlet var table: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+
+    @IBAction func addButton(_ sender: Any) {
+        let alert = UIAlertController(title: "Add Note", message: "This is my note.", preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addTextField{
+            texfield in texfield.placeholder = ""
+        }
+                //add a cancel button
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: nil))
+                // add an action (button)
+                alert.addAction(UIAlertAction(title: "Add", style: UIAlertAction.Style.default, handler: nil))
+                
+                // show the alert
+                self.present(alert, animated: true, completion: nil)
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -29,6 +41,11 @@ class NoteVC: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NoteCell", for: indexPath)
+        return cell
     }
 
     /*
