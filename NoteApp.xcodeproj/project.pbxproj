@@ -17,6 +17,8 @@
 		8813A9B12724195900E4EBC3 /* NoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9B02724195900E4EBC3 /* NoteAppUITests.swift */; };
 		8813A9B32724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9B22724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift */; };
 		8813A9C227241AED00E4EBC3 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813A9C127241AED00E4EBC3 /* NoteVC.swift */; };
+		88D6FB2B2733E20D00A7F3D5 /* noteapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D6FB292733E20D00A7F3D5 /* noteapp.png */; };
+		88D6FB2C2733E20D00A7F3D5 /* noteApp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D6FB2A2733E20D00A7F3D5 /* noteApp2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		8813A9B02724195900E4EBC3 /* NoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAppUITests.swift; sourceTree = "<group>"; };
 		8813A9B22724195900E4EBC3 /* NoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8813A9C127241AED00E4EBC3 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
+		88D6FB292733E20D00A7F3D5 /* noteapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteapp.png; sourceTree = "<group>"; };
+		88D6FB2A2733E20D00A7F3D5 /* noteApp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteApp2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		8813A9802724195800E4EBC3 = {
 			isa = PBXGroup;
 			children = (
+				88D6FB282733E20100A7F3D5 /* images */,
 				8813A9CF2724330F00E4EBC3 /* Core */,
 				8813A98B2724195800E4EBC3 /* NoteApp */,
 				8813A9A52724195900E4EBC3 /* NoteAppTests */,
@@ -144,6 +149,15 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		88D6FB282733E20100A7F3D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				88D6FB292733E20D00A7F3D5 /* noteapp.png */,
+				88D6FB2A2733E20D00A7F3D5 /* noteApp2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8813A99C2724195900E4EBC3 /* LaunchScreen.storyboard in Resources */,
+				88D6FB2B2733E20D00A7F3D5 /* noteapp.png in Resources */,
+				88D6FB2C2733E20D00A7F3D5 /* noteApp2.png in Resources */,
 				8813A9992724195900E4EBC3 /* Assets.xcassets in Resources */,
 				8813A9942724195800E4EBC3 /* Main.storyboard in Resources */,
 			);
